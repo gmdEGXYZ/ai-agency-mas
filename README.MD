@@ -105,13 +105,26 @@ PDF-отчёта через отдел Content. Пример результат�
 
 ## Установка
 
+1. Скачайте необходимые файлы:
 ```bash
 git clone https://github.com/gmdEGXYZ/ai-agency-mas.git
 cd ai-agency-mas
 pip install -r requirements.txt
-cp .env.example .env
-# заполните .env своим API-ключом
 ```
+
+2. Скопируйте `.env.example` в `.env`:
+   
+**Linux / macOS:**
+```bash
+cp .env.example .env
+```
+
+**Windows (PowerShell):**
+```powershell
+copy .env.example .env
+```
+
+3. Заполните .env своим API-ключом.
 
 ## Запуск
 
