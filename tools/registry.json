@@ -1,0 +1,35 @@
+[
+    {
+        "name": "get_current_datetime",
+        "description": "Возвращает текущую дату и время системы в строковом формате 'YYYY-MM-DD HH:MM:SS'.",
+        "parameters": {}
+    },
+    {
+        "name": "get_available_tools",
+        "description": "Выводит список доступных инструментов с описанием.",
+        "parameters": {}
+    },
+    {
+        "name": "fetch_webpage_text",
+        "description": "Загружает содержимое веб-страницы по указанному URL и извлекает из неё очищенный текстовый контент, игнорируя теги script и style.",
+        "parameters": {
+            "url": "str"
+        }
+    },
+    {
+        "name": "memory_save",
+        "description": "Сохраняет любые данные (dict, list, str) в системную память проекта.",
+        "parameters": {
+            "key": "str",
+            "value": "any",
+            "description": "str"
+        }
+    },
+    {
+        "name": "memory_load",
+        "description": "Загружает данные из системной памяти проекта по ключу.",
+        "parameters": {
+            "key": "str"
+        }
+    }
+]
